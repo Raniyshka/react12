@@ -1,0 +1,38 @@
+.modal{
+    width: 700px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d5d5d5;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.modal h3{
+    color: blue;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.modal form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+.modal form input{
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+.modal form input[type='submit'], .modal .btn{
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+}

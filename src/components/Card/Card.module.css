@@ -1,0 +1,43 @@
+*{
+    text-decoration: none;
+}
+
+.card{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardImg{
+    height: 344px;
+    width: 420px;
+}
+
+.cardImg img{
+    height: 344px;
+    width: 420px;
+}
+
+.card h3{
+    margin: 20px 10px;
+    font-size: 15px;
+}
+
+.cardBottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    color: blue;
+    font-size: 32px;
+}
+
+.btn{
+    color: white;
+    background-color: blue;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}

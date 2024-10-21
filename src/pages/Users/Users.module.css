@@ -1,0 +1,34 @@
+.users{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.user{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.form input{
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+.form button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}

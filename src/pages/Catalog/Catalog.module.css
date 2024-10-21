@@ -1,0 +1,62 @@
+.catalog {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  
+  .catalog h1 {
+    font-size: 40px;
+  }
+  
+  .categories {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 0 55px;
+  }
+  
+  .categories h3 {
+    font-size: 18px;
+  }
+  
+  .categories nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .categories nav a {
+    color: blue;
+    padding: 5px 15px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+  }
+  
+  .more {
+    text-align: right;
+    margin: 70px 0 90px;
+  }
+  
+  .more a {
+    text-decoration: none;
+    color: blue;
+    background-color: #e5e5e5;
+    padding: 10px 40px;
+    font-size: 20px;
+  }
+  
+  .categories nav a.active {
+    color: white;
+    background-color: blue;
+  }
+  
